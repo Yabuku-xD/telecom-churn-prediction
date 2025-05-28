@@ -10,7 +10,11 @@ This project implements a complete customer churn prediction pipeline that:
 - Provides an interactive dashboard for business stakeholders
 - Delivers actionable recommendations to reduce customer churn
 
-## 📊 Dataset
+## 🖼️ Demo
+
+![Demo Screenshot](demo.png)
+
+##  Dataset
 
 - **Source**: Telco Customer Churn dataset (Kaggle/IBM Watson)
 - **Size**: ~7,000 customers with 21 features
