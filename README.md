@@ -209,17 +209,8 @@ python -m pytest tests/test_model_trainer.py -v
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors
-
-- **Data Science Team** - Initial work and model development
-- **Business Analytics Team** - Business insights and recommendations
-
 ## 🙏 Acknowledgments
 
 - Kaggle for providing the Telco Customer Churn dataset
 - IBM Watson for the alternative dataset source
 - Open source community for the excellent ML libraries
-
----
-
-**Note**: This is a demonstration project for educational and portfolio purposes. For production use, ensure proper data privacy compliance and model monitoring.
