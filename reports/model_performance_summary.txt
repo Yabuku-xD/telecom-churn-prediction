@@ -1,0 +1,13 @@
+TELECOM CHURN PREDICTION - MODEL PERFORMANCE SUMMARY
+============================================================
+
+Report Generated: 2025-05-27 20:01:01
+
+
+BUSINESS RECOMMENDATIONS:
+------------------------------
+1. Focus retention efforts on month-to-month customers
+2. Improve fiber optic service quality
+3. Encourage automatic payment methods
+4. Implement early intervention for new customers
+5. Develop loyalty programs for long-term customers

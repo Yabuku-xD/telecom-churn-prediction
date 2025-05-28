@@ -1,0 +1,50 @@
+# Configuration file for Telecom Churn Prediction Dashboard
+
+# Application settings
+app:
+  title: "Telecom Churn Prediction Dashboard"
+  description: "Interactive dashboard for customer churn analysis and prediction"
+  version: "1.0.0"
+  
+# Model settings
+model:
+  default_model: "xgboost"
+  threshold: 0.5
+  models_directory: "../models/"
+  
+# Data settings
+data:
+  sample_size: 1000
+  test_size: 0.2
+  random_state: 42
+  
+# Feature engineering
+features:
+  categorical_encoding: "label"
+  scaling_method: "standard"
+  handle_missing: true
+  
+# Visualization settings
+visualization:
+  color_palette: ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd"]
+  figure_size: [12, 8]
+  dpi: 300
+  
+# Business metrics
+business:
+  customer_acquisition_cost: 500
+  average_customer_lifetime: 24  # months
+  monthly_service_cost: 30
+  
+# Risk levels
+risk_levels:
+  low: 0.3
+  medium: 0.5
+  high: 0.7
+  
+# Retention strategies
+retention:
+  contract_discount: 0.15  # 15% discount for long-term contracts
+  loyalty_discount: 0.10   # 10% loyalty discount
+  tech_support_months: 3   # Free tech support months
+  payment_discount: 5      # $5 discount for automatic payment
